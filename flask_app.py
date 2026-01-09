@@ -4,4 +4,4 @@ if __name__ == '__main__':
     app.run(port=5000,debug=True)
 @app.route('/')
 def home():
-    return "<p>Dit is een test<p>"
+    return "<p>Dit is een testje<p>"
